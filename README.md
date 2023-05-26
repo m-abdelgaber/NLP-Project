@@ -9,3 +9,4 @@ We use the Arabert tokenizer, which is specifically designed for Arabic text, to
 
 To run the code simply install the required libraries and run the code. 
 The code was mainly run on colab so you need to modify the path to point at the FINAL_AAQAD-v1.0.json on colab
+The main notebook is QA. The other notebooks are used for Data analysis only.
