@@ -7,5 +7,5 @@ The goal of this project is to build a QA model that can accurately answer quest
 
 We use the Arabert tokenizer, which is specifically designed for Arabic text, to preprocess the data before feeding it into the model. This tokenizer is based on WordPiece, a subword tokenization algorithm that splits words into smaller units based on frequency and context.
 
-The Report for the project:
-https://www.overleaf.com/read/cfgnpsgdqfxj
+To run the code simply install the required libraries and run the code. 
+The code was mainly run on colab so you need to modify the path to point at the FINAL_AAQAD-v1.0.json on colab
