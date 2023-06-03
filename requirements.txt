@@ -1,0 +1,10 @@
+ijson
+arabert
+transformers
+pandas
+matplotlib
+numpy
+torch
+nltk
+seaborn
+gensim
