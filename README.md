@@ -1,8 +1,9 @@
-# Instructions to run this code for evaluation
-The code was mainly run on colab so you need to modify the path to point at the FINAL_AAQAD-v1.0.json on colab. You should download the FINAL_AAQAD-v1.0.json from [here](https://github.com/adelmeleka/AQAD/blob/master/AQQAD%201.0/FINAL_AAQAD-v1.0.json).
 
-# Arabic Queston-Answering DistilBERT Model 
-This repository contains code for a Question-Answering (QA) model based on fine-tuning DistilBERT using Arabic QA data. We compare between 2 tokenizers, the Arabert tokenizer and the DistilBERT tokenizer. The goal of this project is to build a QA model that can accurately answer questions posed in Arabic. We fine-tune the DistilBERT model, a smaller and faster version of the popular BERT model, using Arabic QA data to create a model that can understand the nuances of Arabic language and provide accurate answers.
+# Instructions to run this code for evaluation
+The code was mainly run on Colab, so you need to modify the path to point at the FINAL_AAQAD-v1.0.json on Colab. You should download the FINAL_AAQAD-v1.0.json from [here](https://github.com/adelmeleka/AQAD/blob/master/AQQAD%201.0/FINAL_AAQAD-v1.0.json).
+
+# Arabic Question-Answering DistilBERT Model
+This repository contains code for a Question-Answering (QA) model based on fine-tuning DistilBERT using Arabic QA data. We compare between 2 tokenizers, the Arabert tokenizer, and the DistilBERT tokenizer. The goal of this project is to build a QA model that can accurately answer questions posed in Arabic. We fine-tune the DistilBERT model, a smaller and faster version of the popular BERT model, using Arabic QA data to create a model that can understand the nuances of the Arabic language and provide accurate answers.
 
 ## Table of Contents
 
@@ -41,12 +42,16 @@ You can install these dependencies by running the following command:
 ```shell
 pip install -r requirements.txt
 ```
+
 Additionally, you need to download the stopwords corpus from NLTK. You can do this by running the following Python code:
+
 ```shell
 import nltk
 nltk.download('stopwords')
 ```
+
 Before running the code, make sure to clone the repository to get the training data:
+
 ```shell
 git clone https://github.com/adelmeleka/AQAD
 ```
